@@ -1,0 +1,250 @@
+.comments ul {
+  margin: 0 120px 50px;
+  padding: 30px;
+}
+
+.comment {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  font-size: 12px;
+  list-style: none;
+}
+
+.home {
+  font-size: 20px;
+  padding: 2px 5px 0;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.add {
+  font-size: 20px;
+  padding: 2px 10px 0;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.add:hover {
+  color: white;
+  background-color: #7f7fff;
+}
+
+.add small {
+  position: relative;
+  top: -5px;
+  padding: 0 5px;
+}
+
+.btn-show {
+  font-size: 20px;
+  padding: 4px 10px 0 10px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.vote {
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  padding: 3px 5px 2px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #7f7fff;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  padding: 3px 5px 2px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #ff4c4c;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.p5 {
+  padding: 5px;
+}
+
+.m0-10 {
+  margin: 0 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+.sort-posts {
+  padding: 10px;
+}
+
+.sort-posts strong {
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.sort-posts span button {
+  margin: 5px;
+}
+
+.grid-container {
+  display: flex;
+}
+
+.categories {
+  min-height: 100vh;
+  border-right: 1px solid #aaa;
+  padding: 0 50px;
+}
+
+.categories ul { 
+  margin: 0;
+  padding: 0;
+}
+
+.categories a {
+  text-decoration: none;
+}
+
+.category-item {
+  list-style: none;
+  padding: 5px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #88f;
+}
+
+.category-item:hover {
+  cursor: pointer;
+  background-color: #88f;
+  color: white !important;
+}
+
+.posts {
+  padding: 0 50px !important;
+  width: 100% !important;
+}
+
+.new-post {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  padding: 30px;
+}
+
+.new-post input, .new-post select, .new-post textarea, .new-post button {
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.new-post button {
+  background-color: #88f;
+  color: white;
+}
+
+.post {
+  border: 1px solid #aaa;
+  list-style: none;
+  margin: 10px 0;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.post-header {
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.post h4 {
+  margin: 5px 0;
+}
+
+.post-body {
+  text-align: justify;
+  font-size: 13px;
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin: 30px 150px;
+}
+
+.post-footer { 
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #88f;
+  padding: 10px;
+  color: white;
+}
+
+.post-actions {
+  padding: 10px;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
